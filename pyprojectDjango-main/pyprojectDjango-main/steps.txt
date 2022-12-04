@@ -1,0 +1,13 @@
+1-install python3
+2-cmd (pip install virtualenv)
+3-GO to  project folder and run cmd(python3 -m venv venv)
+4-cmd(. venv/bin/activate : si vous etes sous LINUX/Mac sinon tu tappes : . venv/Scripts/activate)
+5-cmd(pip install -r requirements.txt)
+6-open app folder
+7-cmd(python3 manage.py makemigrations form)
+8-cmd(python3 manage.py migrate)
+9-cmd(python3 manage.py runserver)
+10-open browser (localhost:8000)
+
+
+Good Luck
